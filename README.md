@@ -1,4 +1,4 @@
-<h1 align="center">My Personal Website</h1>
+<h1 align="center">ToDoApp</h1>
 
 ###
 
@@ -8,7 +8,7 @@
 
 ###
 
-<h3 align="center">ToDoApp</h3>
+<h3 align="center">Codsoft Internship Project</h3>
 
 ###
 
