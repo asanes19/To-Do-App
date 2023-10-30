@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>ToDoApp</title>
+    </head>
+    <body>
+        <main>
+            <div class="sayed"></div>
+            <section class="mainSection" id="HomeSection">
+                <div class="containr">
+                    <h2>Let Me Help You <span style="color: #28b295;">Manage</span> Your Tasks</h2>
+                    <img src="todo.png" alt="ToDoPic" />
+                    <div class="linksContainer">
+                        <a class="createAccount" id="start">Start</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="mainSection" id="TasksSection">
+                <div class="containr">
+                    <h2><i class="fa-solid fa-circle-chevron-left" id="back"></i>  Enter Your <span style="color: #28b295;">Tasks</span></h2>
+                    <div class="form">
+                        <input type="text" class="input" id="input" placeholder="Enter Your Task ..." />
+                        <input type="submit" class="add" id="add" value="Add Task" />
+                    </div>
+                    <div class="tasks">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="main.js"></script>
+    </body>
+</html>
